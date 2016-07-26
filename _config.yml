@@ -1,11 +1,21 @@
 # Site settings
-title:       Pixyll
+title:       Lovecalls
 email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+author:      5pani2pesci
+description: "Love calls! Love's urgent!"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://lovecalls.5p2p.it"
 date_format: "%b %-d, %Y"
+timezone: America/Los_Angeles
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 
 # Google services
 google_verification:
@@ -17,14 +27,14 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
+animated:             true
+show_related_posts:   true
+show_post_footers:    true
+show_social_icons:    true
+ajaxify_contact_form: true
 enable_mathjax: false
-extended_fonts: false
-enable_anchorjs: false
+extended_fonts: true
+enable_anchorjs: true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -54,7 +64,7 @@ flattr_button:
 # Post sharing icons
 show_sharing_icons: false
 # Change to 'true' to enable individual icons
-share_facebook: false
+share_facebook: true
 share_twitter: false
 share_googleplus: false
 share_linkedin: false
@@ -105,8 +115,8 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
+# gems:
+  # - jekyll-paginate
+  # - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+# exclude: [vendor]
