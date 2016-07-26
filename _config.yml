@@ -8,24 +8,24 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your_email@example.com
+email: 
 author: 5pani2pesci
 description: Love calls! Love's urgent!
-baseurl: ''
+baseurl: 
 url: http://lovecalls.5p2p.it
 date_format: "%b %-d, %Y"
 google_verification: 
 google_analytics: 
 google_tag_manager: 
 bing_verification: 
-animated: true
-show_related_posts: true
-show_post_footers: true
+animated: false
+show_related_posts: false
+show_post_footers: false
 show_social_icons: true
 ajaxify_contact_form: true
 enable_mathjax: false
-extended_fonts: true
-enable_anchorjs: true
+extended_fonts: false
+enable_anchorjs: false
 disqus_shortname: 
 facebook_comments: 
 facebook_appid: 
@@ -43,7 +43,7 @@ medium_id:
 bitcoin_url: 
 paypal_url: 
 flattr_button: 
-show_sharing_icons: false
+show_sharing_icons: true
 share_facebook: true
 share_twitter: false
 share_googleplus: false
